@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+
+body{
+    background-color: #1898C8;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr 1fr 1fr;
+    background-color: #0838d8;
+    justify-content: center;
+}
+
+.nav_link {
+    border: #f888b8 solid 3px;
+    background-color: #e8b868;
+    color: #f888b8;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 30px;
+    text-decoration: none;
+    -webkit-text-stroke: black 2px;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+.nav_link:hover {
+    background-color: #f888b8;
+    color: #e8b868;
+    border-color: #e8b868;
+}
+
+#logo {
+    object-fit: cover;
+    border-radius: 100%;
+    width: 9em;
+    height: 9em;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+#goals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#who_is {
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.explanation {
+    margin: 20px;
+    justify-self: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+h2{
+    border: #f888b8 solid 3px;
+    background-color: #e8b868;
+    color: #f888b8;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 100px;
+    padding: 30px;
+    text-decoration: none;
+    -webkit-text-stroke: black 2px;
+    font-family: "Press Start 2P", sans-serif;
+    margin-bottom: 20px;
+}
+
+#videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    justify-items: center;
+    max-width: fit-content; 
+    justify-self: center;  
+}
+
+#click_videos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px
+}
+
+.multimedia {
+    background-color: #0838d8;
+    color: #e8b868;
+    font-size: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "VT323", sans-serif;
+    padding: 10px;
+}
+
+.multimedia:hover {
+    background-color: #e8b868;
+    color: #0838d8;
+}
+
+#music {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+
+/*This section is for the video area------------------------------------------------*/
+#iframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 90%;
+    aspect-ratio: 16/9;
+    margin-top: 20px;
+    border: #e8b868 5px solid;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    
+}
+/*End of section for video area------------------------------------------------------*/
+
+/*for music html*/
+
+audio {
+    display: block;
+    justify-self: center;
+    justify-items: center;
+}
+
+.audio{
+    display: block;
+    border: #f888b8 solid 3px;
+    background-color: #e8b868;
+    color: #f888b8;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 30px;
+    text-decoration: none;
+    -webkit-text-stroke: black 2px;
+    font-family: "Press Start 2P", sans-serif;
+    margin: 20px;
+}
+
+
+/*end of for music*/
+
+h1 {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e8b868;
+    max-width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: "Press Start 2P", sans-serif;
+    margin-bottom: 20px
+}
+
+p {
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: "VT323", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e8b868;
+    color: black;
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#title {
+    background-color:#e8b868;
+    color: #0838d8;
+    display: block;
+    align-self: center;
+    margin: 0 auto;
+    max-width: fit-content;
+    height: 1.1em;
+    font-size: 5em;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+.videos {
+    background-color: #0838d8;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #0838d8;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 45% 1fr 1fr 1fr 1fr;
+    padding: 50px;
+    align-items: center;
+}
+
+#foota {
+    justify-self: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.socials {
+    color: white;
+    height: auto;
+    width: 150px
+}
